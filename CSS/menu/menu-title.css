@@ -7,3 +7,8 @@
      color: var(--cor-de-letra);
      width: 105px;
 }
+@media screen and (max-width: 1135px) {
+     .menu__title{
+         width: 100%;
+     }
+ }

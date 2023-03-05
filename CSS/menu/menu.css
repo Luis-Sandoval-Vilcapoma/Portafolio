@@ -19,7 +19,13 @@
 @media screen and (max-width: 1135px) {
     .menu{
         width: 100%;
-        gap:calc(100% - 713px);
+        gap:calc(10%);
+        justify-content: space-around;
+    }
+    .menu nav {
+        width: 53%;
+        justify-content: end;
+        padding-right: 10px;
     }
 }
 @media screen and (max-width: 768px) {

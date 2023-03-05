@@ -1,0 +1,38 @@
+.title__profile{
+    background: url("../../assets/perfil.jpg");
+    width: 368px;
+    height: 368px;
+    min-width: 368px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+@media screen and (max-width: 1135px) {
+    .title__profile{
+        max-width: 280px;
+        min-width: 280px;
+        height: 280px;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title__profile{
+        max-width: 146px;
+        min-width: 146px;
+        height: 146px;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .title__profile{
+        max-width: 98px;
+        min-width: 98px;
+        height: 98px;
+        min-height: 98px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+}
