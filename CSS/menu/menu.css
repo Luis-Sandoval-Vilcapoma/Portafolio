@@ -1,0 +1,68 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 426px;
+    width: 1136px;
+    height: 88px;
+}
+.menu nav {
+    display: flex;
+    width: 600px;
+    align-items: center;
+}
+.menu__contacto{
+    display: none;
+}
+@media screen and (max-width: 1135px) {
+    .menu{
+        width: 100%;
+        gap:calc(100% - 713px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 16px 32px;
+        gap:10px;
+        width: calc(100% - 64px);
+        height: 56px;
+    }
+    .menu nav {
+        justify-content: end;
+    }
+    .menu__contacto {
+        display: flex;
+        height: 19px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--color-de-letra); 
+    }
+
+}
+@media screen and (max-width: 360px) {
+    .menu {
+        padding: 16px;
+        gap:10px;
+        width: calc(100% - 32px);
+        height: 56px;
+    }
+    .menu nav {
+        justify-content: end;
+    }
+    .menu__contacto {
+        display: flex;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--color-de-letra); 
+    }
+
+}

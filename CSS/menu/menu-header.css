@@ -1,0 +1,14 @@
+.menu__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    height: 24px;
+    width: 140px;
+
+}
+.menu__header img{
+    width: 24px;
+    height: 24px;
+}
