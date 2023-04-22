@@ -7,6 +7,7 @@
     gap: 208px;
     height: 368px;
     width: 1136px;
+    padding: 0 152px;
 }
 
 .title__div{
@@ -19,20 +20,24 @@
     height: 368px;
     width: 1136px;
 }
-@media screen and (max-width: 1135px) {
-    .title{
-        width: 100%;
-        gap:calc(100% - 713px);
-    }
-}
 @media screen and (max-width: 768px) {
     .title{
-        width: 100%;
-        gap:calc(100% - 713px);
-        height: 230px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        width: 768px;
+        height: 210px;
     }
     .title__div{
-        height: 230px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        width: 768px;
+        height: 210px;
     }
 }
 @media screen and (max-width: 360px) {

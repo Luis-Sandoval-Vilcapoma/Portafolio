@@ -1,0 +1,76 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 656px;
+    height: 596px;
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    width: 656px;
+    height: 84px;
+
+}
+.formcontato__title{
+    width: 141px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    align-items: flex-start;
+    margin: 0px;
+}
+.formcontato__subtext{
+    width: 656px;
+    height: 38px;
+    margin: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+    /* Preto/100% */
+    color: #464646;
+}
+@media screen and (max-width: 360px) {
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+        width: 296px;
+        height: 611px;
+           
+    }
+    .formcontato__text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 296px;
+        height: 110px;
+    }
+    .formcontato__subtext{
+        width: 296px;
+        height: 76px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+    }
+}

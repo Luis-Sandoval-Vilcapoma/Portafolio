@@ -1,0 +1,22 @@
+.formcontato__img{
+    background: url(/PORTAFOLIO/assets/contact_image.png);
+}
+@media screen and (max-width: 768px) {
+    .formcontato__img{
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .formcontato__img{
+        background: none;
+        width: 0px;
+        height: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        }
+}

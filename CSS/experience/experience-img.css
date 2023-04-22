@@ -1,0 +1,21 @@
+.experience__img {
+    width: 752px;
+    height: 406px;
+
+    background: url(codigo-secreto.png);
+    border-radius: 0px;
+}
+@media screen and (max-width: 768px) {
+    .experience__img{
+        width: 704px;
+        height: 320px;
+        border-radius: 0px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .experience__img{
+        width: 296px;
+        height: 144px;
+        border-radius: 0px;
+        }
+}

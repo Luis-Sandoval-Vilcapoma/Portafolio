@@ -1,0 +1,46 @@
+.academic__title {
+    width: 450px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+@media screen and (max-width: 768px) {
+    .academic__title{
+        width: 233px;
+        height: 26px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        color: #464646;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .academic__title{
+        width: 233px;
+        height: 26px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        color: #464646;
+        
+    }
+}

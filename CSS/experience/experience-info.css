@@ -1,0 +1,34 @@
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 112px;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 2px;
+        width: 704px;
+        height: 91px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 296px;
+        height: 91px;
+        }
+}
